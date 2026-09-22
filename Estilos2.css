@@ -1,0 +1,58 @@
+body {
+    background-color: #f3eee4;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.obra {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #b8d8d3;
+}
+
+/* Sol */
+.sol {
+    width: 80px;
+    height: 80px;
+    background-color: #f2c879;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+/* Agua */
+.agua {
+    width: 100%;
+    height: 55%;
+    background-color: #78aaa5;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Nenúfares */
+.nenufar {
+    width: 45px;
+    height: 25px;
+    background-color: #8fae7b;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.uno {
+    left: 100px;
+    top: 80px;
+}
+
+.dos {
+    left: 350px;
+    top: 130px;
+}
+
+.tres {
+    left: 470px;
+    top: 50px;
+}
